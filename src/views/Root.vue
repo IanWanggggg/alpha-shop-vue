@@ -75,7 +75,7 @@ export default {
   methods: {
     printData(e) {
       this.formData = e;
-      console.log("From Root", this.formData);
+      console.log("Order", this.formData, this.cartData);
     },
     updateData(e) {
       this.formData = e;

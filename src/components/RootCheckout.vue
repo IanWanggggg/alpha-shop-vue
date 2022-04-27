@@ -203,7 +203,6 @@ export default {
     },
     formSubmit() {
       this.$emit('afterSubmit',this.formData)
-      console.log('Form Submit',this.formData)
     }
   },
 };
