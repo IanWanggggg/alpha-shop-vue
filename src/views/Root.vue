@@ -25,14 +25,14 @@ const dummyCartProducts = [
   {
     productId: 0,
     productName: "破壞補丁牛仔褲",
-    productImg: "../assets/product-1.png",
+    productImg: require('../assets/product-1.png'),
     productAmount: 1,
     productPrice: 3999,
   },
   {
     productId: 1,
     productName: "刷色直筒牛仔褲",
-    productImg: "../assets/product-2.png",
+    productImg: require('../assets/product-2.png'),
     productAmount: 1,
     productPrice: 1299,
   },
